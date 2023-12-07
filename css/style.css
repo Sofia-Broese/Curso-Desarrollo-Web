@@ -1,0 +1,202 @@
+/*
+/////////////////////////////////////////////////////////////////////
+ESTILOS RESET
+////////////////////////////////////////////////////////////////////
+*/
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    max-width: 1200px;
+}
+ul li {
+    font-size: 20px;
+    display: inline-block;
+}
+a {
+    font-style: none;
+    text-decoration: none;
+}
+
+#nav ul {
+    display: inline-block;
+    overflow: hidden;
+    font-style: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#body {
+    max-width: 1440px;
+}
+
+main section article h1 {
+    font-size: 20px;
+    display: block;
+}
+
+main section article h2 {
+    font-size: 15px;
+}
+
+/* #main {
+    display: inline-block;
+    width: 100%;
+    height: 100v;
+}
+*/
+
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DE MI CUENTA
+////////////////////////////////////////////////////////////////////
+*/
+
+.crear {
+    font-size: 10px;
+}
+
+
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/INDEX
+////////////////////////////////////////////////////////////////////
+*/
+
+
+
+
+#tarjetas{
+    width: 400px;
+    height: auto;
+}
+
+.card-img-top {
+    display: block;
+    margin: auto;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+
+/*
+.sectionTopRosa {
+    width: 210px;
+    height: 210px;
+    display: inline-block;
+}
+
+.sectionTopGris {
+    width: 210px;
+    height: 210px;
+    display: inline-block;
+}
+*/
+
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/PRODUCTO
+////////////////////////////////////////////////////////////////////
+*/
+
+/*
+.sectionProductosTea {
+    width: 410px;
+    height: 410px;
+}
+
+.sectionProductosCooffe {
+    width: 410px;
+    height: 410px;
+}
+
+.sectionProductosAstro {
+    width: 410px;
+    height: 410px;
+}
+
+.sectionProductosCebra {
+    width: 410px;
+    height: 410px;
+}
+
+.sectionProductosJungla {
+    width: 410px;
+    height: 410px;
+}
+
+.sectionProductosBe {
+    width: 410px;
+    height: 410px;
+}
+*/
+
+
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL FOOTER
+////////////////////////////////////////////////////////////////////
+*/
+
+#footer {
+    margin-top: auto;
+    width: 100%;
+    height: 405px;
+    background-color: grey
+}
+
+.footerPagoMaster {
+    width: 60px;
+    height: 50px;
+}
+
+.footerPagoVisa {
+    width: 60px;
+    height: 50px;
+}
+
+.footerPagoFacil {
+    width: 50px;
+    height: 50px;
+}
+
+.footerPagoMercado {
+    width: 50px;
+    height: 50px;
+}
+
+.footerEnvioCorreo {
+    width: 50px;
+    height: 50px;
+}
+
+.footerEnvioOca {
+    width: 50px;
+    height: 50px;
+}
+
+.footerRedesInsta {
+    width: 20px;
+    height: 20px;
+}
+
+.footerRedesFace {
+    width: 20px;
+    height: 20px;
+}
+
+.footerRedesWhats {
+    width: 20px;
+    height: 20px;
+}
+
+.footerRedesMaps {
+    width: 20px;
+    height: 20px;
+}
