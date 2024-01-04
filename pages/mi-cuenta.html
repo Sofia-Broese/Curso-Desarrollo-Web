@@ -10,7 +10,7 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
-    <title>contacto</title>
+    <title>mi cuenta</title>
 </head>
 <body id="body">
   <header id="header">
@@ -35,44 +35,49 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="mi-cuenta.html">Mi cuenta</a>
+              <a class="nav-link text-white" href="#">Mi cuenta</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contacto</a>
+              <a class="nav-link text-white" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="carrito-de-compras.html">Mi carrito</a>
+              <a class="nav-link text-white" href="pages/carrito-de-compras.html">Mi carrito</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    </header>
-    <main id="main">
+        </header>
+
+    <!--<header id="header">
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="producto.html">producto</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="#">mi cuenta</a></li>
+                <li><a href="carrito de compras.html">carrito de compras</a></li>
+            </ul>
+        </nav>
+    </header>-->
+    <main id="mainFormulario">
         <form action="">
-            <fieldset id="fieldset">
-                <h1>CONTACTO</h1>
-                <ul>
-                    <li>
-                        <label for="name">nombre completo</label>
-                        <br>
-                        <input type="text" placeholder="nombre completo">
-                    </li>
-                    <li>
-                        <label for="email">e-mail</label>
-                        <br>
-                        <input type="email" placeholder="e-mail">
-                    </li>
-                    <li>
-                        <label for="msg">mensaje</label>
-                        <br>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </li>
-                    <br><br>
-                    <input type="submit" name="" id="">
-                </ul>
+          <ul class="mainFieldsetUl">
+            <div class="col-md-4">
+              <label for="validationServer01" class="form-label">Nombre de usuario</label>
+              <input type="email" class="form-control is-valid" id="validationServer01" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label">Contraseña</label>
+              <input type="password" class="form-control is-valid" id="validationServer02" value="Otto" required>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </ul>
+              <li class="crear"><a href="crear-cuenta.html">aun no tengo cuenta</a></li>
+            </ul>
             </fieldset>
-            
         </form>
     </main>
 

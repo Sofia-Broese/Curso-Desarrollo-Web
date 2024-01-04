@@ -4,11 +4,11 @@ ESTILOS RESET
 ////////////////////////////////////////////////////////////////////
 */
 * {
-    margin: 10px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    max-width: 1200px;
+    max-width: 1440px;
 }
 ul li {
     font-size: 20px;
@@ -19,35 +19,166 @@ a {
     text-decoration: none;
 }
 
-#nav ul {
-    display: inline-block;
-    overflow: hidden;
-    font-style: none;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-}
-
 #body {
     max-width: 1440px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 20px;
 }
 
+
+
+/*
+/////////////////////////////////////////////////////////////////////
+ESTILOS DEL HEADER
+/////////////////////////////////////////////////////////////////////
+*/
+#navbarNavDropdown a:hover {
+    color: gray !important;
+}
+
+/*
+/////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/NAVBAR
+/////////////////////////////////////////////////////////////////////
+*/
+
+
+
 main section article h1 {
-    font-size: 20px;
+    font-size: 15px;
     display: block;
 }
 
 main section article h2 {
-    font-size: 15px;
+    font-size: 10px;
 }
 
-/* #main {
+#main {
     display: inline-block;
-    width: 100%;
-    height: 100v;
+    width: 100%; 
+    height: auto;
 }
+
+
+
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/INDEX
+////////////////////////////////////////////////////////////////////
 */
 
+#carouselExampleInterval {
+    margin-top: 1px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+
+#tarjetasCol {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 60px;
+}
+
+
+.indexTop {
+    width: 600px;
+    height: auto;
+}
+
+
+
+.card-img-top {
+    margin: auto;
+    background-attachment: contain;
+    background-size: cover;
+    /* display: flex; */
+}
+
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/PRODUCTO
+////////////////////////////////////////////////////////////////////
+*/
+
+#divh1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1Pijama {
+    font-size: 30px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.h2Pijama {
+    font-size: 25px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pijama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pijamas {
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "sectionProductosTea sectionProductosCooffe sectionProductosAstro"
+    "sectionProductosCebra sectionProductosJungla sectionProductosBe"
+    ;
+}
+
+.sectionProductosTea {
+    width: 410px;
+    height: 410px;
+    grid-area: sectionProductosTea;
+}
+
+.sectionProductosCooffe {
+    width: 410px;
+    height: 410px;
+    grid-area: sectionProductosCooffe;
+}
+
+.sectionProductosAstro {
+    width: 410px;
+    height: 410px;
+    grid-area: sectionProductosAstro;
+}
+
+.sectionProductosCebra {
+    width: 410px;
+    height: 410px;
+    grid-area: sectionProductosCebra;
+}
+
+.sectionProductosJungla {
+    width: 410px;
+    height: 410px;
+    grid-area: sectionProductosJungla;
+}
+
+.sectionProductosBe {
+    width: 410px;
+    height: 410px;
+    grid-area: sectionProductosBe;
+}
 
 /*
 ////////////////////////////////////////////////////////////////////
@@ -63,78 +194,34 @@ ESTILOS DE MI CUENTA
 
 /*
 ////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/INDEX
+ESTILOS DE MI CUENTA
 ////////////////////////////////////////////////////////////////////
 */
 
-
-
-
-#tarjetas{
-    width: 400px;
-    height: auto;
-}
-
-.card-img-top {
-    display: block;
-    margin: auto;
-    background-attachment: contain;
-    background-size: cover;
+.row {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
-/*
-.sectionTopRosa {
-    width: 210px;
-    height: 210px;
-    display: inline-block;
+.btn-close {
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
-.sectionTopGris {
-    width: 210px;
-    height: 210px;
-    display: inline-block;
-}
-*/
-
-
-/*
-////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/PRODUCTO
-////////////////////////////////////////////////////////////////////
-*/
-
-/*
-.sectionProductosTea {
-    width: 410px;
-    height: 410px;
+.crear {
+    font-size: 15px;
+    display: flex;
+    margin-left: 300px;
 }
 
-.sectionProductosCooffe {
-    width: 410px;
-    height: 410px;
+.col-12 {
+    margin-top: 30px;
+    display: flex;
 }
 
-.sectionProductosAstro {
-    width: 410px;
-    height: 410px;
-}
-
-.sectionProductosCebra {
-    width: 410px;
-    height: 410px;
-}
-
-.sectionProductosJungla {
-    width: 410px;
-    height: 410px;
-}
-
-.sectionProductosBe {
-    width: 410px;
-    height: 410px;
-}
-*/
 
 
 
@@ -146,10 +233,84 @@ ESTILOS DEL FOOTER
 
 #footer {
     margin-top: auto;
+    gap: 20px;
     width: 100%;
-    height: 405px;
-    background-color: grey
+    height: 350px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "sectionPago sectionRedes"
+    "sectionEnvio sectionRedes"
+    ;
 }
+
+
+
+
+.footerRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footerRedes h1 {
+    font-size: 30px;
+}
+
+.textoFooter {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.footerPago h1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.footerPago img {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+
+.footerEnvio h1 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.footerEnvio img {
+    margin-left: 30px;
+}
+
+#sectionPago {
+    margin-top: 20px;
+    grid-area: sectionPago;
+}
+
+#sectionEnvio {
+    margin-top: 10px;
+    grid-area: sectionEnvio;
+}
+
+#sectionRedes{
+    margin-top: 10px;
+    grid-area: sectionRedes;
+}
+
+article.footerRedes {
+    justify-content: right;
+    align-items: center;
+
+}
+
+/*DISEÑO DE IMAGENES FOOTER*/
 
 .footerPagoMaster {
     width: 60px;
@@ -182,21 +343,91 @@ ESTILOS DEL FOOTER
 }
 
 .footerRedesInsta {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    margin-bottom: 13px;
 }
 
 .footerRedesFace {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    margin-bottom: 13px;
+
 }
 
 .footerRedesWhats {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    margin-bottom: 13px;
 }
 
 .footerRedesMaps {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    margin-bottom: 13px;
 }
+
+.footerRedesGmail {
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    margin-bottom: 13px;
+}
+
+
+/*
+////////////////////////////////////////////////////////////////////
+BREAKPOINTS
+////////////////////////////////////////////////////////////////////
+*/
+
+
+@media (max-width: 1300px) {
+    #pijamas {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "sectionProductosTea sectionProductosCooffe"
+        "sectionProductosAstro sectionProductosCebra"
+        "sectionProductosJungla sectionProductosBe"
+        
+        ;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #footer{
+        height: 680px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "sectionPago"
+        "sectionEnvio"
+        "sectionRedes";
+    }
+    .textoFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+    #pijamas {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "sectionProductosTea"
+        "sectionProductosCooffe"
+        "sectionProductosAstro"
+        "sectionProductosCebra"
+        "sectionProductosJungla"
+        "sectionProductosBe"
+        ;
+    }
+}
+
