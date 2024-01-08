@@ -1,0 +1,135 @@
+@media (max-width: 1300px) {
+    #pijamas {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "sectionProductosTea sectionProductosCooffe"
+        "sectionProductosAstro sectionProductosCebra"
+        "sectionProductosJungla sectionProductosBe"
+        ;
+    }
+
+    #pantuflas {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "sectionProductosBoca sectionProductosMargaritas"
+        "sectionProductosRiver sectionProductosWinne"
+        "sectionProductosHipo sectionProductosHongo"
+        ;
+    }
+
+    #bikinis {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        "sectionProductosDepor sectionProductosFlores"
+        "sectionProductosNaranja sectionProductosRosa"
+        "sectionProductosRallas sectionProductosDeporRosa"
+        ;
+    }
+}
+
+@media (max-width: 600px) {
+    #footer{
+        height: 680px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "sectionPago"
+        "sectionEnvio"
+        "sectionRedes";
+    }
+    .textoFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+    #pijamas {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "sectionProductosTea"
+        "sectionProductosCooffe"
+        "sectionProductosAstro"
+        "sectionProductosCebra"
+        "sectionProductosJungla"
+        "sectionProductosBe"
+        ;
+    }
+
+    #pantuflas {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "sectionProductosBoca"
+        "sectionProductosMargaritas"
+        "sectionProductosRiver"
+        "sectionProductosWinne"
+        "sectionProductosHipo"
+        "sectionProductosHongo"
+        ;
+    }
+
+    #bikinis {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "sectionProductosDepor"
+        "sectionProductosFlores"
+        "sectionProductosNaranja"
+        "sectionProductosRosa"
+        "sectionProductosRallas"
+        "sectionProductosDeporRosa"
+        ;
+    }
+}
+
+@media (max-width: 500px) {
+    #pijamas {
+        .pijama {
+            .img {
+                width: 300px; 
+                height: 300px;
+            }
+            .h1Pijama {
+                font-size: 20px;
+            }
+            .h2Pijama {
+                font-size: 10px;
+            }
+        }
+}
+
+#pantuflas {
+    .pantus {
+        .img {
+            width: 300px; 
+                height: 300px;
+            }
+            .h1Pantus {
+                font-size: 20px;
+            }
+            .h2Pantus {
+                font-size: 10px;
+            }
+        }
+    }
+
+    #bikinis {
+        .bikini {
+            .img {
+                width: 300px; 
+                height: 300px;
+            }
+            .h1Bikini {
+                font-size: 20px;
+            }
+            .h2Bikini {
+                font-size: 10px;
+            }
+        }
+    }
+}

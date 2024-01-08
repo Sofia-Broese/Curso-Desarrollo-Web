@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    max-width: 1440px;
+}
+ul li {
+    font-size: 20px;
+    display: inline-block;
+}
+a {
+    font-style: none;
+    text-decoration: none;
+}
+
+#body {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 20px;
+}

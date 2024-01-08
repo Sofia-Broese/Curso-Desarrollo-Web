@@ -1,0 +1,362 @@
+/*
+/////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/NAVBAR
+/////////////////////////////////////////////////////////////////////
+*/
+
+#main {
+    display: inline-block;
+    width: 100%; 
+    height: auto;
+
+    main section article h1 {
+        font-size: 15px;
+        display: block;
+}
+
+    main section article h2 {
+        font-size: 10px;
+}
+
+    #carouselExampleInterval {
+        margin-top: 1px;
+        .carousel-inner {
+            width: 100%;
+            height: auto;
+    }
+}
+    #tarjetasCol {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin: 60px;
+
+        .indexTop {
+            width: 600px;
+            height: auto;
+
+            .card-img-top {
+                margin: auto;
+                background-attachment: contain;
+                background-size: cover;
+                /* display: flex; */
+            }
+        }
+}
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/PRODUCTO
+////////////////////////////////////////////////////////////////////
+*/
+
+#bikinis {
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "sectionProductosDepor sectionProductosFlores sectionProductosNaranja"
+    "sectionProductosRosa sectionProductosRallas sectionProductosDeporRosa"
+    ;
+    .bikini {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .sectionProductosDepor {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosDepor;
+        }
+
+        .sectionProductosFlores {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosFlores;
+        }
+
+        .sectionProductosNaranja {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosNaranja;
+        }
+
+        .sectionProductosRosa {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosRosa;
+        }
+
+        .sectionProductosRallas {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosRallas;
+        }
+
+        .sectionProductosDeporRosa {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosRallas;
+        }
+
+        #divh1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .h1Bikini {
+                font-size: 25px;
+                gap: 10px;
+                margin-top: 8px;
+            }
+
+            .h2Bikini {
+                font-size: 20px;
+                gap: 10px;
+                margin-top: 5px;
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+}
+
+#pantuflas {
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "sectionProductosBoca sectionProductosMargaritas sectionProductosRiver"
+    "sectionProductosWinne sectionProductosHipo sectionProductosHongo"
+    ;
+    .pantus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .sectionProductosBoca {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosBoca;
+        }
+
+        .sectionProductosMargaritas {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosMargaritas;
+        }
+
+        .sectionProductosRiver {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosRiver;
+        }
+
+        .sectionProductosWinne {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosWinne;
+        }
+
+        .sectionProductosHipo {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosHipo;
+        }
+
+        .sectionProductosHongo {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosHongo;
+        }
+        #divh1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .h1Pantus {
+                font-size: 25px;
+                gap: 10px;
+                margin-top: 8px;
+            }
+            
+            .h2Pantus {
+                font-size: 20px;
+                gap: 10px;
+                margin-top: 5px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+#pijamas {
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "sectionProductosTea sectionProductosCooffe sectionProductosAstro"
+    "sectionProductosCebra sectionProductosJungla sectionProductosBe"
+    ;
+    .pijama {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .sectionProductosTea {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosTea;
+        }
+
+        .sectionProductosCooffe {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosCooffe;
+        }
+        
+        .sectionProductosAstro {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosAstro;
+        }
+        
+        .sectionProductosCebra {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosCebra;
+        }
+        
+        .sectionProductosJungla {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosJungla;
+        }
+        
+        .sectionProductosBe {
+            width: 410px;
+            height: 410px;
+            grid-area: sectionProductosBe;
+        }
+
+        #divh1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .h1Pijama {
+                font-size: 25px;
+                gap: 10px;
+                margin-top: 8px;
+            }
+            
+            .h2Pijama {
+                font-size: 20px;
+                gap: 10px;
+                margin-top: 5px;
+                margin-bottom: 30px;
+            }
+        }
+        
+    }
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/MI CUENTA
+////////////////////////////////////////////////////////////////////
+*/
+
+.crear {
+    font-size: 15px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.mainFieldsetUl {
+    margin-top: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    .col-md-4 {
+        margin-top: 20px;
+    }
+    .btn-primary {
+        margin-top: 30px;
+    }
+    #validationServer01 {
+        width: 100%;
+    }
+    #validationServer02 {
+        width: 100%;
+    }
+}
+
+/*
+////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/CREAR CUENTA
+////////////////////////////////////////////////////////////////////
+*/
+
+#main {
+    .row {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        .btn-close {
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+    
+        .col-12 {
+            margin-top: 30px;
+            display: flex;
+        }
+    }
+    
+    
+}
+
+/*
+/////////////////////////////////////////////////////////////////////
+ESTILOS DEL MAIN/CARRITO DE COMPRAS
+/////////////////////////////////////////////////////////////////////
+*/
+#mainCarrito {
+    .img-fluid {
+        width: 150px;
+        height: auto;
+    }
+    .back-to-shop {
+        margin-top: 20px;
+    }
+    .btn{
+        background-color: #000;
+        border-color: #000;
+        color: white;
+        width: 100%;
+        font-size: 0.7rem;
+        margin-top: 2vh;
+        padding: 1vh;
+        border-radius: 0;
+        .btn:focus{
+            box-shadow: none;
+            outline: none;
+            box-shadow: none;
+            color: white;
+            transition: none; 
+        }
+        .btn:hover{
+            color: white;
+        }
+    }
+}
