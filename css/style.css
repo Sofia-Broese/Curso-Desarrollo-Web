@@ -294,6 +294,10 @@ ESTILOS DEL MAIN/MI CUENTA
 ESTILOS DEL MAIN/CREAR CUENTA
 ////////////////////////////////////////////////////////////////////
 */
+#main {
+  width: 100%;
+  height: auto;
+}
 #main .row {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -314,6 +318,10 @@ ESTILOS DEL MAIN/CREAR CUENTA
 ESTILOS DEL MAIN/CARRITO DE COMPRAS
 /////////////////////////////////////////////////////////////////////
 */
+#mainCarrito {
+  height: auto;
+  width: 100%;
+}
 #mainCarrito .img-fluid {
   width: 150px;
   height: auto;
@@ -344,6 +352,7 @@ ESTILOS DEL MAIN/CARRITO DE COMPRAS
 
 #footer {
   margin-top: auto;
+  bottom: 0;
   gap: 20px;
   width: 100%;
   height: 350px;
