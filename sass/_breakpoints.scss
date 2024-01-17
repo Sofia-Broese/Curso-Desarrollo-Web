@@ -44,6 +44,12 @@
         flex-direction: column;
         align-items: center;
     }
+    .crear {
+        font-size: 15px;
+        display: flex;
+        margin-left: 300px;
+        margin-bottom: 80px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -131,5 +137,12 @@
                 font-size: 10px;
             }
         }
+    }
+
+    .crear {
+        font-size: 15px;
+        display: flex;
+        margin-left: 200px;
+        margin-bottom: 80px;
     }
 }

@@ -1,9 +1,3 @@
-/*
-/////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/NAVBAR
-/////////////////////////////////////////////////////////////////////
-*/
-
 #main {
     display: inline-block;
     width: 100%; 
@@ -43,14 +37,6 @@ ESTILOS DEL MAIN/NAVBAR
             }
         }
 }
-}
-
-/*
-////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/PRODUCTO
-////////////////////////////////////////////////////////////////////
-*/
-
 #bikinis {
     margin-top: 20px;
     display: grid;
@@ -268,28 +254,18 @@ ESTILOS DEL MAIN/PRODUCTO
     }
 }
 
-/*
-////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/MI CUENTA
-////////////////////////////////////////////////////////////////////
-*/
-
-.crear {
-    font-size: 15px;
-    display: flex;
-    margin-left: 300px;
-}
-
 .mainFieldsetUl {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-right: 40px;
+    margin-left: 70px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     .col-md-4 {
-        margin-top: 20px;
+        margin-top: 60px;
     }
     .btn-primary {
-        margin-top: 30px;
+        margin-top: 55px;
     }
     #validationServer01 {
         width: 100%;
@@ -297,36 +273,49 @@ ESTILOS DEL MAIN/MI CUENTA
     #validationServer02 {
         width: 100%;
     }
-}
-
-/*
-////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/CREAR CUENTA
-////////////////////////////////////////////////////////////////////
-*/
-
-#main {
-    width: 100%;
-    height: auto;
-    .row {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
-
-        .btn-close {
-            margin-top: 30px;
-            margin-left: 50px;
-        }
-    
-        .col-12 {
-            margin-top: 30px;
-            display: flex;
-        }
+    .crear {
+        font-size: 15px;
+        display: flex;
+        margin-left: 350px;
+        margin-bottom: 80px;
     }
-    
-    
 }
+
+.row {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .btn-close {
+        margin-top: 30px;
+        margin-left: 50px;
+
+    }
+
+    .col-12 {
+        margin-top: 30px;
+        display: flex;
+    }
+}
+
+.h1Contacto {
+    margin-left: 30px;
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+
+.listaContacto {
+    margin-bottom: 70px;
+    margin-right: 20px;
+}
+
+
+.boton {
+    margin-bottom: 100px;
+}
+}
+
 
 /*
 /////////////////////////////////////////////////////////////////////
@@ -336,12 +325,14 @@ ESTILOS DEL MAIN/CARRITO DE COMPRAS
 #mainCarrito {
     height: auto;
     width: 100%;
+    margin-bottom: 50px;
     .img-fluid {
         width: 150px;
         height: auto;
     }
     .back-to-shop {
-        margin-top: 20px;
+        margin-top: 40px;
+        margin-bottom: 30px;
     }
     .btn{
         background-color: #000;

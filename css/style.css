@@ -33,11 +33,6 @@ ESTILOS DEL HEADER
   color: gray !important;
 }
 
-/*
-/////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/NAVBAR
-/////////////////////////////////////////////////////////////////////
-*/
 #main {
   display: inline-block;
   width: 100%;
@@ -73,13 +68,7 @@ ESTILOS DEL MAIN/NAVBAR
   background-size: cover;
   /* display: flex; */
 }
-
-/*
-////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/PRODUCTO
-////////////////////////////////////////////////////////////////////
-*/
-#bikinis {
+#main #bikinis {
   margin-top: 20px;
   display: grid;
   gap: 30px;
@@ -87,59 +76,58 @@ ESTILOS DEL MAIN/PRODUCTO
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "sectionProductosDepor sectionProductosFlores sectionProductosNaranja" "sectionProductosRosa sectionProductosRallas sectionProductosDeporRosa";
 }
-#bikinis .bikini {
+#main #bikinis .bikini {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#bikinis .bikini .sectionProductosDepor {
+#main #bikinis .bikini .sectionProductosDepor {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosDepor;
 }
-#bikinis .bikini .sectionProductosFlores {
+#main #bikinis .bikini .sectionProductosFlores {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosFlores;
 }
-#bikinis .bikini .sectionProductosNaranja {
+#main #bikinis .bikini .sectionProductosNaranja {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosNaranja;
 }
-#bikinis .bikini .sectionProductosRosa {
+#main #bikinis .bikini .sectionProductosRosa {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosRosa;
 }
-#bikinis .bikini .sectionProductosRallas {
+#main #bikinis .bikini .sectionProductosRallas {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosRallas;
 }
-#bikinis .bikini .sectionProductosDeporRosa {
+#main #bikinis .bikini .sectionProductosDeporRosa {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosRallas;
 }
-#bikinis .bikini #divh1 {
+#main #bikinis .bikini #divh1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#bikinis .bikini #divh1 .h1Bikini {
+#main #bikinis .bikini #divh1 .h1Bikini {
   font-size: 25px;
   gap: 10px;
   margin-top: 8px;
 }
-#bikinis .bikini #divh1 .h2Bikini {
+#main #bikinis .bikini #divh1 .h2Bikini {
   font-size: 20px;
   gap: 10px;
   margin-top: 5px;
   margin-bottom: 30px;
 }
-
-#pantuflas {
+#main #pantuflas {
   margin-top: 20px;
   display: grid;
   gap: 30px;
@@ -147,59 +135,58 @@ ESTILOS DEL MAIN/PRODUCTO
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "sectionProductosBoca sectionProductosMargaritas sectionProductosRiver" "sectionProductosWinne sectionProductosHipo sectionProductosHongo";
 }
-#pantuflas .pantus {
+#main #pantuflas .pantus {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#pantuflas .pantus .sectionProductosBoca {
+#main #pantuflas .pantus .sectionProductosBoca {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosBoca;
 }
-#pantuflas .pantus .sectionProductosMargaritas {
+#main #pantuflas .pantus .sectionProductosMargaritas {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosMargaritas;
 }
-#pantuflas .pantus .sectionProductosRiver {
+#main #pantuflas .pantus .sectionProductosRiver {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosRiver;
 }
-#pantuflas .pantus .sectionProductosWinne {
+#main #pantuflas .pantus .sectionProductosWinne {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosWinne;
 }
-#pantuflas .pantus .sectionProductosHipo {
+#main #pantuflas .pantus .sectionProductosHipo {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosHipo;
 }
-#pantuflas .pantus .sectionProductosHongo {
+#main #pantuflas .pantus .sectionProductosHongo {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosHongo;
 }
-#pantuflas .pantus #divh1 {
+#main #pantuflas .pantus #divh1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#pantuflas .pantus #divh1 .h1Pantus {
+#main #pantuflas .pantus #divh1 .h1Pantus {
   font-size: 25px;
   gap: 10px;
   margin-top: 8px;
 }
-#pantuflas .pantus #divh1 .h2Pantus {
+#main #pantuflas .pantus #divh1 .h2Pantus {
   font-size: 20px;
   gap: 10px;
   margin-top: 5px;
   margin-bottom: 30px;
 }
-
-#pijamas {
+#main #pijamas {
   margin-top: 20px;
   display: grid;
   gap: 30px;
@@ -207,96 +194,82 @@ ESTILOS DEL MAIN/PRODUCTO
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "sectionProductosTea sectionProductosCooffe sectionProductosAstro" "sectionProductosCebra sectionProductosJungla sectionProductosBe";
 }
-#pijamas .pijama {
+#main #pijamas .pijama {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#pijamas .pijama .sectionProductosTea {
+#main #pijamas .pijama .sectionProductosTea {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosTea;
 }
-#pijamas .pijama .sectionProductosCooffe {
+#main #pijamas .pijama .sectionProductosCooffe {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosCooffe;
 }
-#pijamas .pijama .sectionProductosAstro {
+#main #pijamas .pijama .sectionProductosAstro {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosAstro;
 }
-#pijamas .pijama .sectionProductosCebra {
+#main #pijamas .pijama .sectionProductosCebra {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosCebra;
 }
-#pijamas .pijama .sectionProductosJungla {
+#main #pijamas .pijama .sectionProductosJungla {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosJungla;
 }
-#pijamas .pijama .sectionProductosBe {
+#main #pijamas .pijama .sectionProductosBe {
   width: 410px;
   height: 410px;
   grid-area: sectionProductosBe;
 }
-#pijamas .pijama #divh1 {
+#main #pijamas .pijama #divh1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#pijamas .pijama #divh1 .h1Pijama {
+#main #pijamas .pijama #divh1 .h1Pijama {
   font-size: 25px;
   gap: 10px;
   margin-top: 8px;
 }
-#pijamas .pijama #divh1 .h2Pijama {
+#main #pijamas .pijama #divh1 .h2Pijama {
   font-size: 20px;
   gap: 10px;
   margin-top: 5px;
   margin-bottom: 30px;
 }
-
-/*
-////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/MI CUENTA
-////////////////////////////////////////////////////////////////////
-*/
-.crear {
-  font-size: 15px;
-  display: flex;
-  margin-left: 300px;
-}
-
-.mainFieldsetUl {
-  margin-top: 40px;
+#main .mainFieldsetUl {
+  margin-top: 60px;
   margin-right: 40px;
+  margin-left: 70px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
-.mainFieldsetUl .col-md-4 {
-  margin-top: 20px;
+#main .mainFieldsetUl .col-md-4 {
+  margin-top: 60px;
 }
-.mainFieldsetUl .btn-primary {
-  margin-top: 30px;
+#main .mainFieldsetUl .btn-primary {
+  margin-top: 55px;
 }
-.mainFieldsetUl #validationServer01 {
+#main .mainFieldsetUl #validationServer01 {
   width: 100%;
 }
-.mainFieldsetUl #validationServer02 {
+#main .mainFieldsetUl #validationServer02 {
   width: 100%;
 }
-
-/*
-////////////////////////////////////////////////////////////////////
-ESTILOS DEL MAIN/CREAR CUENTA
-////////////////////////////////////////////////////////////////////
-*/
-#main {
-  width: 100%;
-  height: auto;
+#main .mainFieldsetUl .crear {
+  font-size: 15px;
+  display: flex;
+  margin-left: 350px;
+  margin-bottom: 80px;
 }
 #main .row {
   margin-top: 30px;
@@ -312,6 +285,18 @@ ESTILOS DEL MAIN/CREAR CUENTA
   margin-top: 30px;
   display: flex;
 }
+#main .h1Contacto {
+  margin-left: 30px;
+  margin-top: 45px;
+  margin-bottom: 80px;
+}
+#main .listaContacto {
+  margin-bottom: 70px;
+  margin-right: 20px;
+}
+#main .boton {
+  margin-bottom: 100px;
+}
 
 /*
 /////////////////////////////////////////////////////////////////////
@@ -321,13 +306,15 @@ ESTILOS DEL MAIN/CARRITO DE COMPRAS
 #mainCarrito {
   height: auto;
   width: 100%;
+  margin-bottom: 50px;
 }
 #mainCarrito .img-fluid {
   width: 150px;
   height: auto;
 }
 #mainCarrito .back-to-shop {
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 #mainCarrito .btn {
   background-color: #000;
@@ -455,6 +442,12 @@ ESTILOS DEL MAIN/CARRITO DE COMPRAS
     flex-direction: column;
     align-items: center;
   }
+  .crear {
+    font-size: 15px;
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 80px;
+  }
 }
 @media (max-width: 850px) {
   #pijamas {
@@ -503,6 +496,12 @@ ESTILOS DEL MAIN/CARRITO DE COMPRAS
   }
   #bikinis .bikini .h2Bikini {
     font-size: 10px;
+  }
+  .crear {
+    font-size: 15px;
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 80px;
   }
 }
 
